@@ -1,0 +1,128 @@
+#youtube-wrapper{
+	/* set a gutter on both sides of the wrapper */
+	margin: auto 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#header{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid black;
+}
+
+#header h1{
+	font-size: 40px;
+}
+
+#nav{
+	border-bottom: 1px solid black;
+	padding: 20px 0;
+}
+
+#logo, #search-nav, #account-container{
+	display: inline-block;
+}
+
+#logo{
+	width: 20%;
+
+}
+
+#logo img{
+	max-width: 150px;
+}
+
+#search-nav{
+	width: 50%;
+}
+#search-container{
+	margin-bottom: 15px;
+}
+
+/* #search-nav .search-text{
+	width: 80%;
+}
+
+#search-nav .search-button{
+	width: 18%;
+} */
+
+#search-nav input[type=text]{
+	width: 200px;
+}
+
+#nav-bar ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding-right: 20px;
+	padding-left: 15px;
+	text-decoration: underline;
+}
+
+#nav-bar ul li:last-child{
+	border: none;
+}
+
+#account-container{
+	width: 18%;
+	text-align: right;
+}
+
+#account-links {
+	margin-top: 20px;
+}
+
+#account-links ul li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#content{
+	margin-top: 20px;
+}
+
+#featured-wrapper{
+	background-color: #cacaca;
+	padding: 0px 15px;
+	width: 70%;
+}
+
+#featured-wrapper h2{
+	font-size: 18px;
+	/* margin on top, leave left/right alone */
+	margin: 10px auto;
+}
+
+#featured-wrapper, #featured, #secondary-videos{
+	display: inline-block;
+}
+
+.small-video{
+	border: 1px solid black;
+}
+
+.small-video, .small-video-text{
+	display: inline-block;
+}
+
+#right-rail-ad{
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+}
+#r-r-a-wrapper{
+	width: 271px;
+	height: auto;
+}
+
+#more-videos{
+	background-color: #cacaca;
+}
+
+.more-video-item{
+	display:inline-block;
+	width: 24%;
+}
