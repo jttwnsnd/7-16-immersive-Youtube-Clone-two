@@ -102,6 +102,8 @@ img {
 
 .small-video{
 	border: 1px solid black;
+	margin-left: 20px;
+	margin-bottom: 5px;
 }
 
 .small-video, .small-video-text{
@@ -120,9 +122,14 @@ img {
 
 #more-videos{
 	background-color: #cacaca;
+	margin-top: 20px;
 }
 
 .more-video-item{
 	display:inline-block;
 	width: 24%;
+}
+
+.more-video-item img{
+	border: 1px solid black;
 }
